@@ -52,7 +52,7 @@ public class MovieTicket
 	        				for(int i=1;i<=10;i++)
 		        			{
 		        				if(seat.equalsIgnoreCase("A"+i))
-		        					rowB.remove("A"+i);
+		        					rowA.remove("A"+i);
 		        			}
 	        			try{
 	        		    	ShowTime(rowA,rowB,rowC);
