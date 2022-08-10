@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <servlet>
+    <servlet-name>main</servlet-name>
+    <servlet-class>com.maxi.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>main</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>Login-link</servlet-name>
+    <servlet-class>practice.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Loginlink1</servlet-name>
+    <servlet-class>practice.ShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Loginlink2</servlet-name>
+    <servlet-class>practice.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login-link</servlet-name>
+    <url-pattern>/loginser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Loginlink1</servlet-name>
+    <url-pattern>/loginser1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Loginlink2</servlet-name>
+    <url-pattern>/loginser2</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+</web-app>
